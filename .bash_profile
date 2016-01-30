@@ -39,7 +39,8 @@ export EDITOR="subl -w"
 # Paths
 export USR_PATHS="/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin"
 export PATH="$USR_PATHS:$PATH"
-
+# Add bin from dot-files repository, assuming the repository is in ~/Development.
+export PATH="${PATH}:${HOME}/Development/dot-files/bin"
 # Helpful Functions
 
 # USE: desktop
