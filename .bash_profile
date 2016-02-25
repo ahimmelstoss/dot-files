@@ -94,6 +94,9 @@ alias gcam="git commit -a -m"
 alias gb="git branch"
 alias gba="git branch -a"
 alias gpr="git pull --rebase"
+alias gbr="git branch"
+alias gco="git checkout"
+alias gcm="git commit -m"
 
 # Raspberry Pi
 alias rasp="ssh -p 2022 amanda@home.hioreanu.net"
